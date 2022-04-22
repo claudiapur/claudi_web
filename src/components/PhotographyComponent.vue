@@ -682,7 +682,7 @@
           <router-link  to="/photography" class="nav-link">photography</router-link>
         </div>
         </div>
-        <div class="col-4 choose">
+        <div class="col-4 choose chooseTwo">
           <p>scroll down and enjoy the journey</p>
         </div>
         <div class="col-4 footerNav">
@@ -994,7 +994,9 @@ import { ref } from 'vue'
   height: 200px;
 }
 
-
+.kyanotypia_one{
+  padding-left: 50px;
+}
 .nameImage {
   text-align: center;
 }

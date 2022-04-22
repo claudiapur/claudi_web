@@ -21,6 +21,12 @@
       <div class="col-12 scroll-div border">
          <div class="col-12 scroll-object">
 
+              <div class="col-12 displayPhotos">
+                <div class="col-12 cvPhoto">
+                  <img src="../assets/photo_web/cv-final_Klaudia.png" width="100%" alt="">
+                </div>
+              </div>
+
       </div>
       </div>
     </div>
@@ -30,15 +36,15 @@
       <div class="col-12 footer">
         <div class="col-4 footerNav">
            <div class="col-4 firstBorder">
-          <router-link class="nav-link" to="/photography">Photography</router-link>
+          <router-link class="nav-link" to="/photography">photography</router-link>
         </div>
         </div>
-        <div class="col-4 choose">
+        <div class="col-4 choose chooseOne">
           <p>scroll</p>
         </div>
         <div class="col-4 footerNav">
           <div class="col-4 firstBorder">
-          <router-link class="nav-link" to="/design">Design</router-link>
+          <router-link class="nav-link" to="/design">design</router-link>
           </div>
         </div>
       </div>
@@ -60,5 +66,8 @@ export default {};
     color: white;
     font-size: 15px;
   }
- 
+ .cvPhoto{
+   margin-top: 10px;
+   margin-bottom: 10Px;
+ }
 </style>

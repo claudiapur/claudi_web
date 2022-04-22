@@ -22,7 +22,7 @@
       <div class="col-12 scroll-div border">
         <div class="col-12 scroll-object">
           
-              <div class="break"></div>
+              <div class="break7"></div>
           <div class="col-12 displayPhotos">
              <div class="col-5 nameImage">
                <p>CD cover <br> Connected</p>
@@ -80,7 +80,7 @@
 
               <div class="col-12 displayPhotos">
               <div class="col-5 trapholt nameImage">
-                <p>Design of a website for TRAPHOLT museum </p>
+                <p>Trapholt logo & merchandise </p>
                 <img src="../assets/photo_web/design_page/trapholt_logo.jpg"  width="70%" alt=""/>
               </div>
               <div class="col-7 trapholt nameImage">
@@ -130,7 +130,7 @@
           <router-link class="nav-link" to="/photography">photography</router-link>
         </div>
         </div>
-        <div class="col-4 choose">
+        <div class="col-4 choose chooseTwo">
           <p>scroll down and enjoy the journey</p>
         </div>
         <div class="col-4 footerNav">
@@ -151,7 +151,9 @@ export default {};
 .break{
   height: 250px;
 }
-
+.break7{
+  height: 130px;
+}
 .breakDown{
   height: 100px;
 }

@@ -5,7 +5,7 @@
         <div class="col-2">
           <router-link class="nav-link2" to="/">claudiapur</router-link>
         </div>
-        <div class="col-8 "></div>
+        <div class="col-8 bad"></div>
         <div class="col-2 some">
           <div class="col cv">
             <router-link class="nav-link2" to="/cv">CV</router-link>
@@ -30,20 +30,24 @@
             <div class="col-12 displayPhotos">
             <div class="col-12 displayPhotos">
               <div class="col-6 me">
+             <a href="/photography">
                 <img
                   src="../assets/photo_web/me/DSC_1339.jpg"
                   height="95%"
                   width="100%"
                   alt=""
                 />
+                </a>
               </div>
               <div class="col-6 me">
+                <a href="/design">
                 <img
                   src="../assets/photo_web/me/DSC_1383.jpg"
                   height="95%"
                   width="90%"
                   alt=""
                 />
+                </a>
               </div>
             </div>
           </div>
@@ -59,7 +63,7 @@
           <router-link class="nav-link" to="/photography">photography</router-link>
         </div>
         </div>
-        <div class="col-4 choose">
+        <div class="col-4 choose chooseOne">
           <p>scroll</p>
         </div>
         <div class="col-4 footerNav">
@@ -221,6 +225,9 @@ h1 {
 .nav-link2:hover{
   color: white;
 }
+.nav-link2{
+  font-size:19px ;
+}
 
 .fb img, .ig:hover {
  transition: transform .2s; /* Animation */
@@ -246,5 +253,51 @@ h1 {
   -webkit-transform: scale(1.01);
   -moz-transform: scale(1.01);
 }
-
+@media only screen and (max-width: 600px) {
+  .name{
+    padding-left: 0;
+    padding-top: 80px;
+  }
+  .name h1{
+    font-size: 60px;
+    margin:0px
+  }
+  .name h4{
+    font-size: 40px;
+    padding-left: 0px;
+    margin:0px
+  }
+  .border{
+    height: 700px;
+  }
+  .chooseOne p{
+    display:none;
+  }
+  .break3{
+    height: 100px;
+  }
+  .fb img, .ig img{
+    height: 70%;
+    width: 55%;
+  }
+  .bad{
+    width: 40%;
+  }
+    .some{
+    width: 180px;
+  }
+:hover{
+  display:none;
+}
+.chooseTwo p{
+  padding-top: 45px;
+  padding-left: 20px;
+}
+ .cvPhoto{
+   padding-top: 50px;
+ }
+ .chameleon_one img{
+   margin-right: 130px;
+ }
+}
 </style>
