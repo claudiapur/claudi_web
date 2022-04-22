@@ -26,6 +26,14 @@
                   <img src="../assets/photo_web/cv-final_Klaudia.png" width="100%" alt="">
                 </div>
               </div>
+              <div class="break"></div>
+                            <div class="col-12 displayPhotos">
+                <div class="col-12 videoCV">
+                  <div class="embed-responsive embed-responsive-16by9 videocv">
+                  <iframe  src="https://youtu.be/BncS-2wmzuo"></iframe>
+                  </div>
+                </div>
+              </div>
 
       </div>
       </div>
@@ -51,7 +59,6 @@
     </div>
   </div>
 </template>
-
 <script>
 
 export default {};
@@ -70,4 +77,5 @@ export default {};
    margin-top: 10px;
    margin-bottom: 10Px;
  }
+
 </style>
